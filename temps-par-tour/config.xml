@@ -19,4 +19,5 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
+    <preference name="StatusBarBackgroundColor" value="#bdc3c7" />
 </widget>

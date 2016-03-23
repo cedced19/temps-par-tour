@@ -7,8 +7,11 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.github.cedced19.tempspartour"
+        },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "io.github.cedced19.tempspartour"
         }
     },
     "dependent_plugins": {}
