@@ -13,20 +13,20 @@
           <div class="bar bar-header">
             <div class="h1 title">Temps par tour</div>
           </div>
-          <ion-content>
-            <div class="content has-header" overflow-scroll="false">
+          <ion-content overflow-scroll="false">
+            <div class="content has-header">
               <div class="list">
                 <label class="item item-input item-floating-label">
                   <span class="input-label">Distance d'un tour</span>
-                  <input type="number" placeholder="Distance d'un tour" ng-model="distanceTurn">
+                  <input type="number" placeholder="Distance d'un tour" ng-model="default.distanceTurn">
                 </label>
                 <label class="item item-input item-floating-label">
                   <span class="input-label">Distance total</span>
-                  <input type="number" placeholder="Distance total" ng-model="distanceTotal">
+                  <input type="number" placeholder="Distance total" ng-model="default.distanceTotal">
                 </label>
                 <label class="item item-input item-floating-label">
                   <span class="input-label">Temps total (en minutes)</span>
-                  <input type="number" placeholder="Temps total (en minutes)" ng-model="time">
+                  <input type="number" placeholder="Temps total (en minutes)" ng-model="default.time">
                 </label>
               </div>
               <div class="padding">
